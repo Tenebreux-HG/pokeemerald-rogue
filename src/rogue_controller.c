@@ -313,7 +313,7 @@ static u16 GetEncounterChainShinyOdds(u8 count)
     {
         u16 range = ((VarGet(VAR_ROGUE_ACTIVE_POKEBLOCK) == ITEM_POKEBLOCK_SHINY) ? 24 : 48) - 4;
         u16 t = min(count - 4, range);
-        u16 targetOdds = 16;
+        u16 targetOdds = 1200;
 
         return (targetOdds * t + baseOdds * (range - t)) / range;
     }
