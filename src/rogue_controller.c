@@ -264,11 +264,11 @@ u16 Rogue_GetShinyOdds(u8 shinyRoll)
     switch (shinyRoll)
     {
     case SHINY_ROLL_DYNAMIC:
-        baseOdds = 30000;
+        baseOdds = 4096;
         break;
     
     case SHINY_ROLL_STATIC:
-        baseOdds = 8192;
+        baseOdds = 4096;
         break;
     
     case SHINY_ROLL_SHINY_LOCKED:

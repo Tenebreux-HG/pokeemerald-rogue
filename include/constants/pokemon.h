@@ -100,7 +100,7 @@
 
 // Shiny odds
 // RogueNote: odds are currently ~1/100
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 16 // Actual probability is SHINY_ODDS/65536
 #define NON_SHINY_PLACEHOLDER (SHINY_ODDS + 1)
 
 // Ribbon IDs used by TV and Pokénav
